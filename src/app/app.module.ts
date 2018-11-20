@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 
 /* Custom modules */
 import { AngularMaterialModule } from './modules/angular-material/angular-material.module';
+import { RoutingModule } from './modules/routing/routing.module';
 
 /* Pages */
 import { HomeComponent } from './pages/home/home.component';
@@ -26,6 +27,7 @@ import { HomeComponent } from './pages/home/home.component';
         FormsModule,
         AngularMaterialModule,
         ReactiveFormsModule,
+        RoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
