@@ -3,9 +3,13 @@
 This is a starter template of a basic responsive web application with mobile-first approach. Build with Angular, using Angular Material components.
 
 ## Contains:
-* Routing
-* Theming
-* Layout (toolbar, sidenav, content)
+* Angular Material module
+* Routing module
+* Custom theming
+* Roboto font
+* SASS styles
+* Layout components (toolbar, sidenav, content)
+* Example pages
 
 ## Development server
 
