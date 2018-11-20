@@ -2,6 +2,8 @@
 
 This is a starter template of a basic responsive web application with mobile-first approach. Build with Angular, using Angular Material components.
 
+![picture](src/assets/images/starter.png)
+
 ## Contains:
 * Angular Material module
 * Routing module
