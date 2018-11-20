@@ -1,0 +1,38 @@
+/* Container */
+.root-container {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 599px) {
+  .root-container {
+    top: 56px;
+  }
+}
+
+/* Toolbar */
+.toolbar {
+  position: fixed;
+  z-index: 999;
+}
+
+.toolbar-title {
+  padding-left: 15px;
+}
+
+/* Sidenav */
+.sidenav {
+  width: 300px;
+}
+
+.nav-label {
+  padding-left: 15px;
+}
+
+.mat-nav-list mat-list-item.active {
+  background: #fafafa;
+  outline: 1px solid #ddd;
+}

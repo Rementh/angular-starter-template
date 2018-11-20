@@ -14,11 +14,13 @@ import { RoutingModule } from './modules/routing/routing.module';
 
 /* Pages */
 import { HomeComponent } from './pages/home/home.component';
+import { SettingsComponent } from './pages/settings/settings.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        SettingsComponent
     ],
     imports: [
         BrowserAnimationsModule,
