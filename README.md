@@ -10,8 +10,9 @@ This is a starter template of a basic responsive web application with mobile-fir
 * Custom theming
 * Roboto font
 * SASS styles
-* Layout components (toolbar, sidenav, content)
-* Example pages
+* Layout (toolbar, sidenav, content)
+* Dialog component
+* Example pages (home, settings)
 
 ## Development server
 
