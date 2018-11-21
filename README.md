@@ -2,7 +2,7 @@
 
 This is a starter template of a basic responsive web application with mobile-first approach. Build with Angular, using Angular Material components.
 
-![picture](https://bitbucket.org/FilipTalaga/angular-starter-template/src/master/src/assets/images/starter.png)
+![picture](https://bitbucket.org/FilipTalaga/angular-starter-template/raw/008b7a5397e3d19750462674e4e0d4c42420afcf/src/assets/images/starter.png)
 
 ## Contains:
 * Angular Material module
