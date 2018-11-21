@@ -15,12 +15,14 @@ import { RoutingModule } from './modules/routing/routing.module';
 /* Pages */
 import { HomeComponent } from './pages/home/home.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         HomeComponent,
-        SettingsComponent
+        SettingsComponent,
+        DialogComponent
     ],
     imports: [
         BrowserAnimationsModule,
@@ -30,6 +32,9 @@ import { SettingsComponent } from './pages/settings/settings.component';
         AngularMaterialModule,
         ReactiveFormsModule,
         RoutingModule
+    ],
+    entryComponents: [
+        DialogComponent
     ],
     providers: [],
     bootstrap: [AppComponent]
